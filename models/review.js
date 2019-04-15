@@ -1,8 +1,3 @@
-/* Review
-- body - string
-- author - object id (ref User)
-*/
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
