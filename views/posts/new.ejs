@@ -2,16 +2,16 @@
 
 <form action="/posts" method="post">
   <div class="">
-    <input name="title" type="text" placeholder="Title">
+    <input name="post[title]" type="text" placeholder="Title">
   </div>
   <div class="">
-    <input name="price" type="text" placeholder="Price">
+    <input name="post[price]" type="text" placeholder="Price">
   </div>
   <div class="">
-    <textarea name="description" placeholder="Description"></textarea>
+    <textarea name="post[description]" placeholder="Description"></textarea>
   </div>
   <div class="">
-    <input name="location" type="text" placeholder="Location">
+    <input name="post[location]" type="text" placeholder="Location">
   </div>
-  <button type="submit" name="button">Submit</button>
+  <input type="submit"></input>
 </form>
